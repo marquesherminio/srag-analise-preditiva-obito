@@ -25,7 +25,7 @@ Este projeto tem como objetivo aplicar técnicas de **Ciência de Dados** e
 **Aprendizado de Máquina** para analisar e prever o **desfecho clínico
 (óbito ou cura)** de pacientes hospitalizados com **Síndrome Respiratória
 Aguda Grave (SRAG)** no Brasil, utilizando dados públicos do período de
-**2019 a 2025**.
+**2019 a 2024**.
 
 Busca-se identificar padrões clínicos e epidemiológicos associados a maior
 risco de óbito, contribuindo para análises exploratórias e estudos

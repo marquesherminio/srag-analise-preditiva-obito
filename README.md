@@ -5,29 +5,29 @@
 - Marques Herminio  
 - Davi Campos Parente  
 
-📅 **Período dos dados:** 2019–2024
+📅 **Período dos dados:** 2019–2024  
 🤖 **Modelo inicial:** Regressão Logística  
-
 
 ---
 
 ## 📌 Sobre o Projeto
 
-
+Este repositório contém o desenvolvimento do Projeto Final da disciplina de
+Introdução à Ciência de Dados, com foco na análise preditiva de desfechos
+clínicos (óbito ou cura) em casos hospitalizados de Síndrome Respiratória
+Aguda Grave (SRAG), utilizando dados públicos do sistema OpenDataSUS.
 
 ---
 
 ## 🎯 Objetivo
 
-Este projeto tem como objetivo aplicar técnicas de **Ciência de Dados** e
-**Aprendizado de Máquina** para analisar e prever o **desfecho clínico
-(óbito ou cura)** de pacientes hospitalizados com **Síndrome Respiratória
-Aguda Grave (SRAG)** no Brasil, utilizando dados públicos do período de
-**2019 a 2024**.
+Aplicar técnicas de **Ciência de Dados** e **Aprendizado de Máquina** para
+analisar e prever o **desfecho clínico (óbito ou cura)** de pacientes
+hospitalizados com **SRAG** no Brasil, no período de **2019 a 2024**.
 
 Busca-se identificar padrões clínicos e epidemiológicos associados a maior
-risco de óbito, contribuindo para análises exploratórias e estudos
-epidemiológicos em saúde pública.
+risco de óbito, contribuindo para estudos exploratórios e análises em saúde
+pública.
 
 ---
 
@@ -49,9 +49,10 @@ epidemiológicos em saúde pública.
 - `EVOLUCAO`
   - 1 → Cura  
   - 2 → Óbito  
-- Conversão final para formato binário:
-  - 0 → Cura  
-  - 1 → Óbito  
+
+Conversão final:
+- 0 → Cura  
+- 1 → Óbito  
 
 **Variáveis Explicativas:**
 - Dados demográficos: sexo e raça  
@@ -68,7 +69,7 @@ epidemiológicos em saúde pública.
 - Filtragem de registros com evolução indefinida  
 - Remoção de valores ausentes nas variáveis selecionadas  
 - Normalização das variáveis preditoras com `StandardScaler`  
-- Divisão da base em conjuntos de treino (70%) e teste (30%) com estratificação  
+- Divisão da base em treino (70%) e teste (30%) com estratificação  
 
 ---
 
@@ -89,13 +90,13 @@ epidemiológicos em saúde pública.
 **Métricas de Avaliação:**
 - Acurácia  
 - F1-score  
-- Área sob a Curva ROC (AUC-ROC)  
+- AUC-ROC  
 - Matriz de Confusão  
 - Curva ROC  
 
 O modelo apresentou desempenho inicial satisfatório, com capacidade razoável
-de discriminar entre casos de óbito e cura, considerando as limitações
-impostas pelo desbalanceamento natural da base.
+de discriminar entre casos de óbito e cura, considerando o desbalanceamento
+natural da base.
 
 ---
 
@@ -136,10 +137,12 @@ hiperparâmetros para melhoria do desempenho preditivo.
 
 ---
 
-📚 *Projeto desenvolvido para a disciplina de Introdução à Ciência de Dados – IFB.*
+## 🎥 Vídeo de Apresentação (Link Externo)
 
+Este vídeo apresenta uma explicação breve do projeto, metodologia e principais resultados.
 
----
+▶️ https://youtu.be/LJECVnyzJts
+
 
 ## 🗂️ Estrutura do Repositório
 
@@ -149,11 +152,3 @@ hiperparâmetros para melhoria do desempenho preditivo.
 📁 notebooks     # Análises e modelagem
 📄 README.md
 📄 .gitignore
-
----
-## 🎥 Vídeo de Apresentação
-
-📌 Apresentação rápida do projeto e dos principais resultados.
-
-▶️ Assista ao vídeo:  
-👉 https://youtu.be/LJECVnyzJts

@@ -14,8 +14,6 @@
 ## 📌 Sobre o Projeto
 
 
-> ⚠️ Os notebooks assumem que os arquivos de dados estejam localizados
-> na pasta `./dados`, na raiz do projeto.
 
 ---
 
@@ -36,7 +34,7 @@ epidemiológicos em saúde pública.
 ## 📊 Dados e Escopo
 
 - **Fonte:** Base de dados SRAG – OpenDataSUS  
-- **Período:** 2019 a 2025  
+- **Período:** 2019 a 2024  
 - **Volume inicial:** Milhões de registros anuais  
 - **Amostragem:** Subamostragem aleatória para viabilizar o processamento  
 - **População analisada:** Casos hospitalizados com evolução definida  
@@ -157,4 +155,4 @@ hiperparâmetros para melhoria do desempenho preditivo.
 📌 Apresentação rápida do projeto e dos principais resultados.
 
 ▶️ Assista ao vídeo:  
-👉 https://www.youtube.com/seu-link-aqui](https://youtu.be/LJECVnyzJts)
+👉 https://youtu.be/LJECVnyzJts

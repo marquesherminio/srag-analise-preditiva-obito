@@ -5,9 +5,9 @@
 - Marques Herminio  
 - Davi Campos Parente  
 
-📅 **Período dos dados:** 2019–2025  
+📅 **Período dos dados:** 2019–2024
 🤖 **Modelo inicial:** Regressão Logística  
-📌 **Status:** Entrega 04 concluída ✅
+
 
 ---
 

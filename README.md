@@ -150,6 +150,7 @@ hiperparâmetros para melhoria do desempenho preditivo.
 📄 README.md
 📄 .gitignore
 
+---
 🎥 Vídeo de Apresentação
 
 📌 Apresentação rápida do projeto e dos principais resultados.

@@ -151,3 +151,10 @@ hiperparâmetros para melhoria do desempenho preditivo.
 📁 notebooks     # Análises e modelagem
 📄 README.md
 📄 .gitignore
+
+🎥 Vídeo de Apresentação
+
+📌 Apresentação rápida do projeto e dos principais resultados.
+
+▶️ Assista ao vídeo:  
+👉 https://www.youtube.com/seu-link-aqui](https://youtu.be/LJECVnyzJts)

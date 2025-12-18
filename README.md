@@ -145,7 +145,7 @@ hiperparâmetros para melhoria do desempenho preditivo.
 
 ```bash
 📁 artigo        # Artigo científico do projeto
-📁 dados         # Bases SRAG (2019–2025)
+📁 dados         # Bases SRAG (2019–2024)
 📁 notebooks     # Análises e modelagem
 📄 README.md
 📄 .gitignore

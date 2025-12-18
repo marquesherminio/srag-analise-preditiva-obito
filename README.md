@@ -1,4 +1,4 @@
-# 🦠 Análise Preditiva de Óbito em Casos de SRAG (2019–2025)
+# 🦠 Análise Preditiva de Óbito em Casos de SRAG com IA
 
 📊 **Disciplina:** Introdução à Ciência de Dados – IFB  
 👨‍🎓 **Autores:**  
@@ -6,26 +6,29 @@
 - Davi Campos Parente  
 
 📅 **Período dos dados:** 2019–2025  
-🤖 **Modelo:** Árvore de Decisão  
-📌 **Status:** Em desenvolvimento 🚧
+🤖 **Modelo inicial:** Regressão Logística  
+📌 **Status:** Entrega 04 concluída ✅
 
 ---
 
 ## 📌 Sobre o Projeto
 
-Este projeto tem como objetivo aplicar técnicas de **Ciência de Dados e Aprendizado de Máquina**
-para prever o **desfecho de óbito** em casos de **Síndrome Respiratória Aguda Grave (SRAG)**,
-utilizando dados públicos do **SUS (OpenDataSUS)**.
+Este projeto aplica técnicas de **Ciência de Dados e Aprendizado de Máquina**
+para analisar e prever o **desfecho de óbito** em casos de
+**Síndrome Respiratória Aguda Grave (SRAG)**, utilizando dados públicos
+disponibilizados pelo **OpenDataSUS**.
+
+O objetivo é avaliar se variáveis clínicas e demográficas são capazes
+de discriminar casos de **cura** e **óbito** a partir de informações
+coletadas no momento da admissão hospitalar.
 
 ---
 
 ## 🗂️ Estrutura do Repositório
 
 ```bash
-📁 srag-analise-preditiva-obito
-│
-├── 📁 dados/               # Arquivos Parquet (2019–2025)
-├── 📁 artigo/              # Artigo científico (em construção)
-├── 📓 main.ipynb           # Notebook principal (EDA + Modelo)
-├── 📄 README.md            # Documentação do projeto
-└── 📄 .gitignore
+📁 artigo        # Artigo científico do projeto
+📁 dados         # Bases SRAG (2019–2025)
+📁 notebooks     # Análises e modelagem
+📄 README.md
+📄 .gitignore
